@@ -1,0 +1,6 @@
+{
+    "dev": {
+        "s3_bucket": "huds_tk",
+        "app_function": "app.app"
+    }
+}
