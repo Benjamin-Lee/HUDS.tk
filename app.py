@@ -6,9 +6,9 @@ app = Flask(__name__)
 def home():
 	# get the current time
 	now = pendulum.now('America/New_York')
-
+	print(pendulum.Date.today().day_of_week)
 	# handle Sunday schedule
-	if pendulum.Date.today().day_of_week == 7:
+	if pendulum.Date.today().day_of_week == 0:
 		if now.time() <  pendulum.time(14, 30, 00):
 			meal = 0
 		else:
