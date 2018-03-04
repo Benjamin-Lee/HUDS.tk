@@ -1,8 +1,8 @@
-# HUDS.tk
+# [huds.tk](http://huds.tk)
 
 ## Introduction
 
-This URL redirector was made with love to be a memorable way to access the HUDS menu for Harvard undergraduates. The menu's URL is dynamically generated and therefore impossible to bookmark or remember. No more!
+This URL redirector was made with love to be a memorable way to access the HUDS menu for Harvard undergraduates. The HUDS site's menu's URL is dynamically generated and therefore impossible to bookmark or remember. No more!
 
 ## How it works
 
