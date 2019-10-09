@@ -1,4 +1,4 @@
-# [huds.tk](http://huds.tk)
+# [Dhall](http://dhall.netlify.com)
 
 ## Introduction
 
@@ -6,8 +6,8 @@ This URL redirector was made with love to be a memorable way to access the HUDS 
 
 ## How it works
 
-The system is a one-function Flask app deployed to AWS Lambda via Zappa. When a user visits HUDS.tk, a microserver is spun up, the correct URL for the menu is calculated, and then served to the user.
+The system is an HTML page with a JavaScript snippet that calculates the URL for the current menu and redirects you.
 
 ## Bugs
 
-I highly doubt there are any bugs (the whole script is <30 lines long), but if there are, please contact me at [benjamin_lee@college.harvard.edu](mailto:benjamin_lee@college.harvard.edu?subject=HUDS.tk). I intend to maintain this app until my graduation in May 2020, so if HUDS changes their menu URL scheme, I'll be sure to update the redirector.
+I highly doubt there are any bugs (the whole HTML file is <50 lines long), but if there are, please contact me at [benjamin_lee@college.harvard.edu](mailto:benjamin_lee@college.harvard.edu?subject=Dhall). I intend to maintain this app until my graduation in May 2020, so if HUDS changes their menu URL scheme, I'll be sure to update the redirector.
